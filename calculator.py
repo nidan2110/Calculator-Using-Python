@@ -5,7 +5,7 @@ root.title("Calculator")
 root.config(bg="#f6fff4")
 
 #TEXTBOX
-e = Entry(root, width=40, borderwidth=1)
+e = Entry(root, width=48, borderwidth=1)
 e.grid(row=0, column=0, columnspan=3, padx=10,pady=10)
 
 #FUNCTIONS FOR BUTTONS
